@@ -21,7 +21,46 @@ int main()
     int size = sizeof(d);
     cout << "Size of the variable 'd': " << size << " bytes." << endl;
 
-    return 0;
+    char ch = 98;
+    cout << ch << "\n";
+
+    unsigned int aa = 112;
+    cout << aa << endl;
+
+    unsigned int aaa = -112; // dont use unsigned to negative because unsigned always positive
+    cout << aaa << endl;
+
+    int a1 = 2 / 3;
+    cout << a1 << endl;
+
+    float a2 = 2.1 / 3;
+    cout << a2 << endl;
+
+    double a3 = 2.33333 / 3;
+    cout << a3 << endl;
+
+    int x = 2;
+    int y = 3;
+
+    bool first = (x == y);
+    cout << first << endl;
+
+    bool second = (x != y);
+    cout << second << endl;
+
+    bool third = (x > y);
+    cout << third << endl;
+
+    bool fourth = (x >= y);
+    cout << fourth << endl;
+
+    bool fifth = (x < y);
+    cout << fifth << endl;
+
+    bool sixth = (x <= y);
+    cout << sixth << endl;
+
+    cout << !x << endl;
 
     return 0;
 }
